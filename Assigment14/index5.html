@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute</title>
+    <style>
+        .card {
+         display: flex;
+         justify-content: center;
+        height: 150px;
+        width: 300px;
+        background-color: rgb(220, 203, 200);
+        margin-top: 70px;
+        position: relative;
+        border-radius: 10px;
+
+    }
+    
+    .img{
+        justify-content: center;
+        position: absolute;
+        align-items: center;
+        width: 50px;
+        /* top: 100px;
+        left: 147px;
+        right: -147px; */
+        margin: 0 auto;
+        padding: 30px;
+        
+      }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="./book.jpg" alt="" class="img" />
+    </div>
+</body>
+</html>
